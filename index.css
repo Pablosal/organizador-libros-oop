@@ -1,0 +1,27 @@
+#dormas {
+  background-color: #cecece;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form > h1 {
+  text-align: center;
+}
+.space {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  width: 100%;
+  height: 100vh;
+}
+.primero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+.personal {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+}
